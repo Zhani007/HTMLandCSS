@@ -1,0 +1,60 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F4F4F3;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.5;
+}
+
+@keyframes color-change {
+  0%   { color: #990000; }
+  50%  { color: #f48257; }
+  100% { color: #990000; }
+}
+
+h1 {
+    animation: color-change 5s infinite;
+    color: #990000;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.widget-container {
+    background-color: #222;
+    border: 3px solid #990000;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 20px auto;
+    width: fit-content;
+}
+
+iframe {
+    border: none;
+}
+
+h2 {
+    color: #bb0000;
+    border-bottom: 2px solid #990000;
+    padding-bottom: 5px;
+    margin-top: 25px;
+}
+
+
+.game {
+    background-color: #cfaf8b;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+footer {
+    text-align: center;
+    font-style: italic;
+    margin-top: 30px;
+    color: #666;
+}
